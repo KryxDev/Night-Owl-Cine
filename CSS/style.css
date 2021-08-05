@@ -55,7 +55,6 @@ span{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     border-radius: 15px;
-    overflow: hidden;
     /* position: relative; */
     /* background-color: rgb(19, 18, 18); */
 }
