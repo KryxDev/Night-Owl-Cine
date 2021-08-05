@@ -13,7 +13,7 @@ searchInput.addEventListener("keydown", (event) => {
     // ====> Call The Function to Get the Fetch Data <======= //
     getMovieDetail(searchInput.value);
   }
-  if(event.keyCode == 8 && searchInput.value == ""){
+  if(event.keyCode == 8){
     document.location.reload();
   }
 });
